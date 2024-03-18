@@ -120,37 +120,33 @@ endmodule
 ```
 
 # OUTPUT:
-# or gate
+# OR gate:
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/d4f22570-81cb-4327-b927-a85013f19b52)
-# not gate
+# NOT gate:
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/9d7200da-8b41-4233-aa11-6ce79ca2494d)
-# and gate
+# AND gate:
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/44466d73-5ff4-4162-b00e-3d5d1bc84b00)
-# nand gate 
+# NAND gate: 
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/149fe8ad-e949-40ba-a485-8b5128aa62cd)
-# nor gate
+# NOR gate:
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/fd15907b-313f-4e65-b18d-71e5062dd93c)
-# xnor gate
+# XNOR gate:
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/ca3715cd-212c-4fd8-9359-b6bd05b20c88)
-# xor gate
+# XOR gate:
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/03fee7a7-7fd1-4a14-8d6c-8c5628bf848d)
-# half adder
+# Half Adder:
 ![half adder1](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/22c46686-7646-45d2-80b8-478b7576ca00)
-# half subtracter 
+# Half Subtracter: 
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/c01f422e-c424-43a5-ab56-ca8d1a873f4e)
-# full adder
+# Full Adder:
 ![full adder](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/0023fb24-70a5-478c-acf9-506e965188a3)
-# full subtracter
+# Full Subtracter:
 ![full subtracter](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/79dc011d-c0b9-4422-88f5-e61a8379488c)
-# 8 bit ripple carry adder
+# 8 Bit Ripple Carry Adder:
 ![rip 8 bit](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/efa076f1-4429-4f9e-a368-f7be4d2685fb)
 
 
 
-
-
-
-
-
-RESULT:
+# RESULT:
+Hence Logic Gates,Adders and Subtractor are simulated and synthesised using Xilinx ISE.
 
