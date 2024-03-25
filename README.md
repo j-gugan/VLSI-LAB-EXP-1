@@ -99,6 +99,33 @@ and g4(w3,~b,bin);
 or g5(bout,w2,w3);
 endmodule
 ```
+# 4 bit ripple carry adder:
+```
+
+module rippe_adder(S,Cout,X,Y,Cin);
+input [3:0] X,Y;
+input Cin;
+output [3:0] S;
+output Cout;
+wire w1,w2,w3;
+fulladder u1(S[0],w1,X[0],Y[0],Cin);
+fulladder u2(S[1],w2,X[1],Y[1],w1);
+fulladder u3(S[2],w3,X[2],Y[2],w2);
+fulladder u4(S[3],Cout,X[3],Y[3],w3);
+endmodule
+
+module fulladder(S,CO,X,Y,Ci);
+input X,Y,Ci;
+output S,CO;
+wire w1,w2,w3;
+xor G1(w1,X,Y);
+xor G2(S,w1,Ci);
+and G3(w2,X,Ci);
+and G4(w3,X,Y);
+or G5(CO,w3,w3);
+endmodule
+```
+
 # 8 bit ripple carry adder:
 ```
 module ripplemod(a, b, cin, sum, cout);
@@ -142,6 +169,9 @@ endmodule
 ![full adder](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/0023fb24-70a5-478c-acf9-506e965188a3)
 # Full Subtracter:
 ![full subtracter](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/79dc011d-c0b9-4422-88f5-e61a8379488c)
+# 4 Bit Ripple Carry Adder:
+![rip 4bit](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/42c5b397-05d8-4607-a491-165ea8a67711)
+
 # 8 Bit Ripple Carry Adder:
 ![rip 8 bit](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/efa076f1-4429-4f9e-a368-f7be4d2685fb)
 
