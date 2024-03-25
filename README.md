@@ -128,21 +128,31 @@ endmodule
 
 # 8 bit ripple carry adder:
 ```
-module ripplemod(a, b, cin, sum, cout);
-input [07:0] a;
-input [07:0] b;
-input cin;
-output [7:0]sum;
-output cout;
-wire[6:0] c;
-fulladd a1(a[0],b[0],cin,sum[0],c[0]);
-fulladd a2(a[1],b[1],c[0],sum[1],c[1]);
-fulladd a3(a[2],b[2],c[1],sum[2],c[2]);
-fulladd a4(a[3],b[3],c[2],sum[3],c[3]);
-fulladd a5(a[4],b[4],c[3],sum[4],c[4]);
-fulladd a6(a[5],b[5],c[4],sum[5],c[5]);
-fulladd a7(a[6],b[6],c[5],sum[6],c[6]);
-fulladd a8(a[7],b[7],c[6],sum[7],cout);
+module rippe_adder(S,Cout,X,Y,Cin);
+input [7:0] X,Y;
+input Cin;
+output [7:0] S;
+output Cout;
+wire w1,w2,w3,w4,w5,w6,w7;
+fulladder u1(S[0],w1,X[0],Y[0],Cin);
+fulladder u2(S[1],w2,X[1],Y[1],w1);
+fulladder u3(S[2],w3,X[2],Y[2],w2);
+fulladder u4(S[3],w4,X[3],Y[3],w3);
+fulladder u5(S[4],w5,X[4],Y[4],w4);
+fulladder u6(S[5],w6,X[5],Y[5],w5);
+fulladder u7(S[6],w7,X[6],Y[6],w6);
+fulladder u8(S[7],Cout,X[7],Y[7],w7);
+endmodule
+
+module fulladder(S,CO,X,Y,Ci);
+input X,Y,Ci;
+output S,CO;
+wire w1,w2,w3;
+xor G1(w1,X,Y);
+xor G2(S,w1,Ci);
+and G3(w2,X,Ci);
+and G4(w3,X,Y);
+or G5(CO,w3,w3);
 endmodule
 ```
 
