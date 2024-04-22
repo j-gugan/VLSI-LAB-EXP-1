@@ -187,19 +187,41 @@ endmodule
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/ca3715cd-212c-4fd8-9359-b6bd05b20c88)
 # XOR gate:
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/03fee7a7-7fd1-4a14-8d6c-8c5628bf848d)
+# Logic gates:
+# Elabarated design:
+![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/1b7e6278-2030-4dc7-b7a6-94dc344bdadd)
+
 # Half Adder:
 ![half adder1](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/22c46686-7646-45d2-80b8-478b7576ca00)
+# Elaborated design:
+![half adder1 dia](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/3cf1c5b3-1dbd-4e28-9831-e0478d61a201)
+
 # Half Subtracter: 
 ![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/c01f422e-c424-43a5-ab56-ca8d1a873f4e)
+# Elaborated design:
+![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/90cee60c-813d-49ed-884e-2f2cc2b71794)
+
 # Full Adder:
 ![full adder](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/0023fb24-70a5-478c-acf9-506e965188a3)
+# Elaborated design:
+![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/fb9177b5-b6c0-4804-8acd-a8c25ce42624)
+
 # Full Subtracter:
 ![full subtracter](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/79dc011d-c0b9-4422-88f5-e61a8379488c)
+# Elaborated design:
+![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/3aaa3f6b-05cb-4fb1-9add-4dbbe162bc09)
+
 # 4 Bit Ripple Carry Adder:
 ![rip 4bit](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/42c5b397-05d8-4607-a491-165ea8a67711)
 
+# Elaborated design:
+![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/78aae243-1e8e-47ae-9c9a-200f636401be)
+
 # 8 Bit Ripple Carry Adder:
 ![rip 8 bit](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/efa076f1-4429-4f9e-a368-f7be4d2685fb)
+
+# Elaborated design:
+![image](https://github.com/j-gugan/VLSI-LAB-EXP-1/assets/163828735/df38445d-0354-43c6-bdbb-13c8f42fbb25)
 
 
 
